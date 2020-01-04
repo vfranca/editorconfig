@@ -1,0 +1,10 @@
+# Editor configuration, see http://editorconfig.org
+root = true
+
+[{*.md,*.markdown}]
+charset = utf-8
+end_of_line = LF
+insert_final_newline = true
+trim_trailing_whitespace = false
+indent_style = space
+indent_size = 2

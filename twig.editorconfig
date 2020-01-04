@@ -1,22 +1,9 @@
 # Editor configuration, see http://editorconfig.org
 root = true
 
-[*]
+[{*.twig,*.html}]
 charset = utf-8
 end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
-
-[{*.php,*.json}]
-indent_style = space
-indent_size = 4
-
-[{*.twig,*.html}]
 indent_style = tab
-
-[*js]
-indent_size = 2
-
-[{*.md,*.markdown}]
-trim_trailing_whitespace = false
-indent_size = 2
